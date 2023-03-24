@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+.al-item {
+    align-items: center;
+}
+.j-cont {
+    justify-content: space-between;
+}
+.j-cent {
+    justify-content: center;
+}
+span {
+    display: inline-block;
+}
+
+.header {
+    &__wrapper {
+        margin-top: 35.5px;
+    }
+    &_logo_link {
+        font-family: 'Sans-serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 1.25;
+        text-transform: capitalize;
+        background: linear-gradient(68deg, #FF62B7 14.39%, #9F53FF 79.59%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    &__nav {
+        padding-left: 25%;
+        padding-right: 120px;
+    }
+    &__nav_item {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.666666666666667;
+        text-transform: capitalize;
+        color: #2C0958;
+        padding-right: 60px;
+        :last-child {
+            padding-right: 0;
+        }
+    }
+    &__sign {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.666666666666667;
+        text-transform: capitalize;
+        color: #2C0958;
+        padding-right: 30px;
+    }
+    &__reg {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.666666666666667;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        background: linear-gradient(68deg, #FF62B7 14.39%, #9F53FF 79.59%);
+        box-shadow: 0px 10px 20px rgba(255, 99, 183, 0.2);
+        border-radius: 58px;
+        padding: 13px 53.5px;
+        
+    }
+}
+
+.main {
+    &__wrapper_relative {
+        position: relative;
+    }
+    &__woman_img {
+        position: absolute;
+        left: 440px;
+        top: -35px;
+    }
+    &__tittle {
+        margin-top: 70px;
+        font-family: 'Mollie glaston';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 123.767px;
+        line-height: 1.25;
+        text-transform: capitalize;
+        color: #2C0958;
+    }
+    &__tittle_span {
+        background: linear-gradient(68deg, #FF62B7 14.39%, #9F53FF 79.59%);
+        border-radius: 26.0107px;
+        transform: rotate(7.69deg);
+        color: white;
+        padding: 9.95px 17.16px;
+        width: 289.51px;
+        height: 170.7px;
+    }
+    &__descr {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 165%; 
+        text-transform: capitalize;
+        color: #48365F;
+    }
+    &__more {
+        margin-top: 32px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 165%;
+        text-transform: capitalize;
+        color: #FFFEFE;
+        background: linear-gradient(68deg, #FF62B7 14.39%, #9F53FF 79.59%);
+        box-shadow: 0px 10px 20px rgba(255, 99, 183, 0.2);
+        border-radius: 58px;
+        width: 238px;
+        padding: 15px 65.5px 15px 25.5px; 
+        white-space: nowrap;
+    }
+    &__more_text {
+        padding-right: 10px;
+    }
+    &__numbers {
+        font-family: 'Mollie glaston';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 80px;
+        text-transform: capitalize;
+        color: #2C0958;
+    }
+    &__num_text {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height:149%;
+        text-transform: capitalize;
+        color: #2C0958;
+    }
+    &__class {
+        margin-right: 76px;
+    }
+    &__current {
+        margin-top: 60px;
+    }
+}
